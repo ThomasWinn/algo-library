@@ -42,6 +42,7 @@ heapq.heappop(heap)
 print("min-heap after popping: ", [x for x in heap])
 
 # Get larget and smallest elements from a heapq object
+# heappush == O(log n)
 new_heap = []
 
 heapq.heapify(new_heap)
