@@ -31,6 +31,7 @@ heapq.heappush(heap, 23)
 print("min-heap: ", [x for x in heap])
 
 # heappop() will move the last element to the root then restore the heap by heapifying down or sifting down
+# Time: O(log n)
 heapq.heappop(heap)
 
 # [1, 3, 45, 23] 
