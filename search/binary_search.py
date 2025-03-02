@@ -4,6 +4,8 @@ def binary_search(arr: list, target: int) -> bool:
     Space: O(1)
 
     Notes:
+    On a sorted list, split the list in two halves comparing which side the target will be on
+
     need l <= r because the target might be where l == r - especially when array has one element
 
     need mid - 1 and mid + 1 parts otherwise infinite loop will happen 
